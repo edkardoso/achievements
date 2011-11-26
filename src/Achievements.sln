@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achievements", "Achievements\Achievements.csproj", "{DFD86667-619E-4E4D-9046-B897E127CE0B}"
 EndProject
-Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packages", "Packages.mdproj", "{268ABA57-ECAD-4998-B751-5FB403D0CD63}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achievements.Tests", "Achievements.Tests\Achievements.Tests.csproj", "{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}"
 EndProject
 Global
@@ -17,8 +15,6 @@ Global
 		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Debug|x86.Build.0 = Debug|Any CPU
 		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Release|x86.ActiveCfg = Release|Any CPU
 		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Release|x86.Build.0 = Release|Any CPU
-		{268ABA57-ECAD-4998-B751-5FB403D0CD63}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{268ABA57-ECAD-4998-B751-5FB403D0CD63}.Release|x86.ActiveCfg = Release|Any CPU
 		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Debug|x86.ActiveCfg = Debug|x86
 		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Debug|x86.Build.0 = Debug|x86
 		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Release|x86.ActiveCfg = Release|x86

@@ -6,9 +6,7 @@ namespace Achievements.Tests
 	[TestFixture]
 	public class AchievementsTests
 	{
-		
-
-		
+				
 		[Test]
 		public void AAA()
 		{
