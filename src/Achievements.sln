@@ -1,24 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achievements", "Achievements\Achievements.csproj", "{DFD86667-619E-4E4D-9046-B897E127CE0B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achievements.Tests", "Achievements.Tests\Achievements.Tests.csproj", "{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Achievements.Domain", "Achievements.Domain\Achievements.Domain.csproj", "{DFD86667-619E-4E4D-9046-B897E127CE0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Debug|x86.Build.0 = Debug|Any CPU
+		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Release|x86.ActiveCfg = Release|Any CPU
 		{01C7DBE1-4FEF-4F49-ACCE-5F85E480BED2}.Release|x86.Build.0 = Release|Any CPU
+		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Debug|x86.ActiveCfg = Debug|x86
 		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Debug|x86.Build.0 = Debug|x86
+		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Release|x86.ActiveCfg = Release|x86
 		{DFD86667-619E-4E4D-9046-B897E127CE0B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Achievements\Achievements.csproj

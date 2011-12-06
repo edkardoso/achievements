@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DFD86667-619E-4E4D-9046-B897E127CE0B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Achievements.Domain</RootNamespace>
+    <AssemblyName>Achievements.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.Entity" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infra\Disposable.cs" />
+    <Compile Include="Infra\EFGenericRepository.cs" />
+    <Compile Include="Infra\GameModelContext.cs" />
+    <Compile Include="Infra\PlayerAchievementConfiguration.cs" />
+    <Compile Include="Infra\PlayerAchievementRepository.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Model\AchievementStateBase.cs" />
+    <Compile Include="Model\AchievementStateLocator.cs" />
+    <Compile Include="Model\AchievementType.cs" />
+    <Compile Include="Model\AchievementTypeExtension.cs" />
+    <Compile Include="Model\AdmitWorker.cs" />
+    <Compile Include="Model\AdmitWorkerRule.cs" />
+    <Compile Include="Model\IAchievementRule.cs" />
+    <Compile Include="Helper\ObjectFactory.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\PlayerAchievement.cs" />
+    <Compile Include="Model\PlayerAchievementExtension.cs" />
+    <Compile Include="Model\StartResearch.cs" />
+    <Compile Include="Model\StartResearchRule.cs" />
+    <Compile Include="Repositories\IPlayerAchievementRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Services\IPlayerAchievementService.cs" />
+    <Compile Include="Services\PlayerAchievementService.cs" />
+    <Compile Include="Specification\ISpecification.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
