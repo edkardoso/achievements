@@ -1,27 +1,38 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Achievements.Tests\AchievementsTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Achievements.Tests/PlayerAchievementTests.cs">
     <Files>
-      <File FileName="Achievements\Main.cs" Line="14" Column="6" />
-      <File FileName="Achievements.Tests\AchievementsTests.cs" Line="37" Column="21" />
+      <File FileName="Achievements.Tests/PlayerAchievementTests.cs" Line="51" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Achievements" expanded="True" />
-          <Node name="Achievements.Tests" expanded="True">
-            <Node name="AchievementsTests.cs" selected="True" />
+          <Node name="Achievements.Domain" expanded="True" selected="True">
+            <Node name="Entities" expanded="True" />
           </Node>
+          <Node name="Achievements.Tests" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
-      </Pad>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="Achievements.Domain" expanded="True" />
+          <Node name="Achievements.Tests" expanded="True">
+            <Node name="References" expanded="True">
+              <Node name="/media/32B4170BB416D169/Applications/achievements/src/packages/EntityFramework.4.2.0.0/lib/net40/EntityFramework.dll" expanded="True" selected="True">
+                <Node name="System" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
